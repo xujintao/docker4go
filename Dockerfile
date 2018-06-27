@@ -4,4 +4,4 @@ MAINTAINER xujintao <xujintao@126.com>
 WORKDIR "/project"
 
 # alpine only have /bin/sh
-CMD sh ./build.sh
+CMD go version && go build -o build/app
